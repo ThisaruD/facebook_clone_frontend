@@ -4,6 +4,7 @@ import Sidebar from "../components/Sidebar";
 import {getSession} from "next-auth/react";
 import Login from "../components/Login";
 import Feed from "../components/Feed";
+import RightSideBar from "../components/RightSideBar";
 
 
 export default function Home({session}) {
@@ -24,6 +25,8 @@ export default function Home({session}) {
           <Feed/>
 
            {/* Right Sidebar*/}
+          <RightSideBar/>
+
         </main>
 
     </div>
